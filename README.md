@@ -33,3 +33,19 @@
     Worst Case Time complexity: O(N) where N being max( number of rules containing both IP Address and ports in range,
      number of rules containing IP Address in range)
 ```
+
+## Testing
+
+```
+    Code was tested with following combinations for incoming packets
+        1. Keeping direction, protocol, port constant and changing IP addresses.
+        2. Keeping direction, protocol, IP addresses constant and changing ports.
+        3. Keeping direction, protocol, IP addresses constant and providing port range.
+        4. Keeping direction, protocol, ports constant and providing IP addresses range.
+        5. Keeping direction, protocol constant and providing IP addresses and port range.
+```
+
+
+## I am interested in working as a backend developer for Platform team or policy team.
+
+
