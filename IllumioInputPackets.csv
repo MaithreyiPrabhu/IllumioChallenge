@@ -1,0 +1,19 @@
+inbound,tcp,80,192.168.1.2
+inbound,udp,53,192.168.2.1
+outbound,tcp,10234,192.168.10.11
+inbound,tcp,81,192.168.1.2
+inbound,udp,24,52.12.48.92
+outbound,tcp,100,52.12.100.255
+outbound,tcp,21,52.89.111.9
+inbound,tcp ,21,52.255.255.255
+inbound,udp,140,192.168.2.1
+outbound,udp,53,192.168.2.1
+inbound,tcp,81,192.168.1.2
+inbound,tcp,80,0.0.0.0
+inbound,tcp,80,255.255.255.255
+inbound,udp,99,192.1.1.10
+outbound,tcp,9,192.1.2.9
+outbound,tcp,10,192.1.2.9
+outbound,udp,10,192.1.2.9
+outbound,tcp,65535,192.1.1.255
+inbound,udp,999,192.1.1.255
