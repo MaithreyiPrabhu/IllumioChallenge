@@ -140,9 +140,9 @@ class fireWallClass:
 
 if __name__ == "__main__":
     #The below line takes CSV file which contains Rules for network
-     objectCreation = fireWallClass('C:\\Users\maith\.PyCharmCE2019.2\config\scratches\IllumioRules.csv')
+     objectCreation = fireWallClass('IllumioRules.csv')
     #The below line takes CSV file which contains the packets which needs to be validated
-     with open('C:\\Users\maith\.PyCharmCE2019.2\config\scratches\IllumioInputPackets.csv') as rulesFile:
+     with open('IllumioInputPackets.csv') as rulesFile:
          rulesFileReader = csv.reader(rulesFile, delimiter=',')
          for row in rulesFileReader:
              print(row, " is ", objectCreation.acceptPacket(row[0], row[1], row[2], row[3]))
